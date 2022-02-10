@@ -4,8 +4,19 @@
 
 #include <stdio.h>
 
-int main() {
-  
+int main() { //main function
+
+  int m1,m2;// variables
+
+  printf("\nEnter marks 1 : "); //data inputs
+  scanf("%d",&m1);
+
+  printf("\nEnter marks 2 : ");
+  scanf("%d",&m2);
+
+  printf("\nAverage is    : %d",(m1+m2)/2); // calculate average
+
+
   return 0;
 }
 
